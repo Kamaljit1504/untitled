@@ -57,6 +57,27 @@ public class StringHandling
         System.out.println(collegeName.contains("lege"));
         System.out.println(collegeName.toCharArray());
         System.out.println(collegeName.concat("265 yorkland blvd., North york"));
+        int a[]={1,2,3,4,5};
+        int b[]=new int[]{6,7,8,9,10};
+        int c[]= new int[20];
+        char ch[]=collegeName.toCharArray();
+
+        for(int i=0;i<ch.length;i++)
+        {
+            System.out.println(ch[i]);
+        }
+
+        char[]   r=new char[ch.length];
+        int cnt=0;
+
+        for(int j=ch.length-1;j>=0;j--)
+        {
+            r[cnt++]=ch[j];
+            System.out.println(ch[j]);
+        }
+        System.out.println(r);
+
+
 
 
     }
